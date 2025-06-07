@@ -40,7 +40,7 @@ article{
 main{
     font-family: sans-serif;
 }
-a:hover{
+.d:hover{
     background-color: #FF7EC7;
     border-color:#D72897;
     color:#D71171;

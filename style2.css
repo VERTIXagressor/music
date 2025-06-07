@@ -31,6 +31,15 @@ section button{
     margin-bottom:0;
     transition: 0.5s;
     
+    background-color: #cb1e80;
+    color:white;
+    padding:10px 15px 10px 15px;
+    border:1px solid #FF7EC7;
+    border-radius: 20px;
+    transition: 0.3s;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
 }
 article{
     background-color: aliceblue;
@@ -69,11 +78,44 @@ h1{text-align: center;}
  section button:hover{
     background-color: #8A00CF;
     border-color:#662E81;
-    color:#b882d3;
-    box-shadow: 10px 15px 10px #561f72;
+    color:#ffffff;
+    box-shadow: 0px 0px 10px #561f72;
+    cursor: pointer;
+    transform: translateY(-4px);
 }
 .bottons{
     display:flex;
     justify-content: left;
 }
 
+
+.koshyk{
+    background-color: #561f72;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: 25px;
+}
+.new{
+    width:900px;
+    height: 500px;
+    border: 10px double white;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 30px;
+
+}
+.nemd{
+    display: flex;
+    justify-content: center;
+}
+.totalPrice{
+    color:aliceblue;
+    background-color: #cb1e80;
+}

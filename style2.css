@@ -18,15 +18,17 @@ section img{
     width:200px;
     height: 300px;
 }
-section botton{
+section button{
     text-decoration: none;
     background-color: #cb1e80;
     color:white;
-    padding:10px 15px 10px 15px;
+    padding:10px 15px 5px 15px;
     margin:30px;
     border:1px solid #FF7EC7;
     border-radius: 20px;
+    margin-bottom:0;
     transition: 0.5s;
+    
 }
 article{
     background-color: aliceblue;
@@ -42,9 +44,14 @@ article{
 }
 h1{text-align: center;}
 
-botton:hover{
+ section button:hover{
     background-color: #8A00CF;
     border-color:#662E81;
     color:#b882d3;
     box-shadow: 10px 15px 10px #561f72;
 }
+.bottons{
+    display:flex;
+    justify-content: left;
+}
+

@@ -53,4 +53,6 @@ form.addEventListener("submit", function (e) {
   totalPrice_number = 0;
   totalPrice_field.innerHTML =
     "До сплати: " + totalPrice_number + "грн";
+  counter_number = 0;
+  counter_field.innerHTML = counter_number;
 });

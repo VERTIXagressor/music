@@ -111,10 +111,6 @@ h1{text-align: center;}
     padding: 30px;
 
 }
-.nemd{
-    display: flex;
-    justify-content: center;
-}
 .totalPrice{
     color:aliceblue;
     background-color: #cb1e80;

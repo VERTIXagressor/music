@@ -115,3 +115,16 @@ h1{text-align: center;}
     color:aliceblue;
     background-color: #cb1e80;
 }
+.form{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 30px;
+   
+
+}
+.oplata{
+    background-color:#cb1e80 ;
+    color:white;
+    border-radius:20px;
+    padding:15px;
+}
